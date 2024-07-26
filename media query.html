@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .some{
+            width: 100vh;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        @media screen and (max-width:600px) {
+            .some{
+                background-color: red;
+            }
+            
+        }
+        @media screen and (max-width:400px) {
+            .some{
+                background-color: rgb(4, 255, 0);
+            }
+            
+        }
+        @media screen and (max-width:200px) {
+            .some{
+                background-color: rgb(76, 0, 255);  
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="some"></div>
+    </div>
+</body>
+</html>
